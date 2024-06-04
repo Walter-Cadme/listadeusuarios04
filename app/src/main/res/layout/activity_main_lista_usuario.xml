@@ -34,4 +34,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/person_add_20dp_fill0_wght400_grad0_opsz20"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="566dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
